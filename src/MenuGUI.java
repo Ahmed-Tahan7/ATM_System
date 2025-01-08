@@ -16,7 +16,7 @@ public class MenuGUI extends JFrame {
         currentInput = new StringBuilder();
 
         setTitle("ATM Main Menu");
-        setSize(400, 400);
+        setSize(500, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 

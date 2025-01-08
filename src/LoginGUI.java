@@ -10,7 +10,7 @@ public class LoginGUI extends JFrame {
     private JPasswordField pinField;
     private StringBuilder currentInput;
     private ATMService atmService;
-    private JTextField focusedField; // Keeps track of which input field is focused
+    private JTextField focusedField;
 
     public LoginGUI(ATMService atmService) {
         this.atmService = atmService;
@@ -18,7 +18,7 @@ public class LoginGUI extends JFrame {
 
         // GUI setup
         setTitle("ATM Login");
-        setSize(400, 400);
+        setSize(500, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
